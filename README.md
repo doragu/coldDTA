@@ -1,10 +1,10 @@
-#ColdDTA: Utilizing data augmentation and attention-based feature fusion for drug-target binding affinity prediction
+# ColdDTA: Utilizing data augmentation and attention-based feature fusion for drug-target binding affinity prediction
 
-##Datasets download: 
+## Datasets download: 
 https://github.com/hkmztrk/DeepDTA/tree/master/data
 
 
-##Requirements
+## Requirements
 dataset\=\=1.6.2
 DeepPurpose\=\=0.1.5
 matplotlib\=\=3.3.4
@@ -19,6 +19,8 @@ torch_geometric\=\=2.0.3
 tqdm\=\=4.62.3
 
 
-##Running
+## Running
 `python preprocessing.py`
+
+
 `python train.py`
